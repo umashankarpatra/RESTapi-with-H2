@@ -1,0 +1,8 @@
+
+CREATE TABLE MOVIES (
+	id INT PRIMARY KEY,
+	title VARCHAR(255) NULL,
+	description VARCHAR(255) NULL,
+	artist VARCHAR(255) NULL,
+	release_date VARCHAR(255) NULL
+);
