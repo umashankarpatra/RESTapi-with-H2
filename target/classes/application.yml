@@ -16,7 +16,7 @@
 
 logging:
     path: logs
-    file: ${logging.path}/sample-service.log  
+    file: ${logging.path}/web-link-service.log  
     level:
         #ROOT: INFO
         com.xebia.sample: DEBUG
@@ -72,8 +72,8 @@ application:
         max-age: 1800
     swagger:
         default-include-pattern: /api/.*
-        title: My Sapmle API
-        description: My Sapmle API documentation
+        title: Link Sharing API
+        description: Link Sharing API documentation
         version: 0.0.1
         terms-of-service-url:
         contact-name:
